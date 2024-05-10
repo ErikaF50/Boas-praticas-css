@@ -1,0 +1,40 @@
+$CorDestaque: #ffff42;
+$CorBorda: gold;
+$CorDescricao: grey;
+
+form {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    &__produto {
+        max-width: 640px;
+        width: 100%;
+        margin: 56px auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-column-gap: 1%;
+    }
+
+    &__imagem {
+        width: 100%;
+    }
+
+    &__nome {
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+
+    &__descricao {
+        color: $CorDescricao;
+    }
+}
+
+.form__destaque  {
+        border: 2px solid $CorBorda;
+        padding: 8px;
+        background-color:$CorDestaque ;
+    }       
+
+
+
